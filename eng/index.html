@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Marcano</title>
+    <link rel="shorcut icon" href="../img/ico-logo-gene.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="normal" data-bs-theme="light">
+
+    <header>
+
+        <a href="#home" aria-label="Go to the home section"><img src="../img/ico-logo-gene.png" alt="logo-gene"
+                id="logo-header"></a>
+
+        <button id="mode-btn">
+            <i class="bi bi-moon-stars-fill" id="dark-mode"></i>
+            <i class="bi bi-brightness-high-fill" id="light-mode"></i>
+        </button>
+
+        <div class="form-check form-switch" id="lang">
+            <input id="lang-btn" name="lang-btn" class="form-check-input" type="checkbox" role="switch" checked>
+            <label class="form-check-label lang-label" for="lang-btn">eng</label>
+        </div>
+
+        <button id="menu-btn">
+            <i class="bi bi-list" id="open-menu"></i>
+            <i class="bi bi-x" id="close-menu"></i>
+        </button>
+
+        <nav>
+            <ul id="header-menu">
+                <li class="header-list"><a href="#home">Home</a></li>
+                <li class="header-list"><a href="#about-me">About me</a></li>
+                <li class="header-list"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="home">
+            <img src="../img/foto-perfil.jpg" alt="foto-perfil" id="profile-picture">
+            <article class="content">
+                <h1 class="h1-media">Hello! I am Génesis Del Mar</h1>
+                <p>Chemical engineer with an interest in professionally developing myself in data analysis
+                    within the field of food</p>
+            </article>
+        </section>
+
+        <section id="about-me">
+            <div class="container-md text-center" id="aboutme-section">
+                <div class="row justify-content-center">
+                    <div class="col-8 col-md-4 mb-3">
+                        <div class="card text-center border border-success h-100">
+                            <img src="../img/sobre_mi.jpg" class="card-img-top mx-auto p-2" alt="img sobre mi">
+                            <div class="card-body align-middle">
+                                <h5 class="card-title fw-semibold">About me</h5>
+                                <p class="card-text">Passionate chemical engineer with a focus on data and food...
+                                </p>
+                                <button type="button" class="btn btn-light fw-semibold" id="button-aboutme1">Keep
+                                    reading</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-md-4 mb-3">
+                        <div class="card text-center border border-success h-100">
+                            <img src="../img/mis_habilidades.jpg" class="card-img-top mx-auto p-2"
+                                alt="img mis habilidades">
+                            <div class="card-body align-middle">
+                                <h5 class="card-title fw-semibold">My skills</h5>
+                                <p class="card-text ">I have completed studies in...</p>
+                                <button type="button" class="btn btn-light fw-semibold" id="button-skills1">Keep
+                                    reading</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-md-4 mb-3">
+                        <div class="card text-center border border-success h-100">
+                            <img src="../img/mis_certificados.jpg" class="card-img-top mx-auto p-2"
+                                alt="img mis certificados">
+                            <div class="card-body align-middle">
+                                <h5 class="card-title fw-semibold">My certificates</h5>
+                                <p class="card-text">So far, I have obtained the certificates...</p>
+                                <button type="button" class="btn btn-light fw-semibold" id="button-certificates">View
+                                    certificates</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="popup" id="aboutme-card">
+                <div class="card col-5 border border-success mt-5" style="width: 60vw">
+                    <h5 class="card-header bg-success p-2 text-white fw-semibold">About me</h5>
+                    <div class="card-body">
+                        <p class="card-text">I am a chemical engineer with a deep interest in data analysis within the
+                            field of food. My organization and attention to detail enable me to solve
+                            problems effectively. In my free time, I enjoy drawing and watching series. Since my second
+                            semester of engineering, I felt a passion for the food industry. Although I began a master's
+                            degree in food engineering, I did not complete it. Nevertheless, my passion for this field
+                            persists, and I am eager to showcase my skills and contribute to a food company</p>
+                        <button type="button" class="btn btn-light fw-semibold back-button"
+                            id="button-aboutme2">Back</button>
+            </section>
+
+            <section class="popup" id="skills-card">
+                <div class="card col-5 border border-success mt-5" style="width: 60vw">
+                    <h5 class="card-header bg-success p-2 text-white fw-semibold">My skills
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text">I have successfully completed additional studies with a focus on:</p>
+                        <ul class="top">
+                            <li><img src="../img/ico-html.png" alt="logo-html" class="studies-ico"></li>
+                            <li><img src="../img/ico-css.png" alt="logo-css" class="studies-ico"></li>
+                            <li><img src="../img/ico-js.png" alt="logo-javascript" class="studies-ico"></li>
+                            <li><img src="../img/ico-bootstrap.png" alt="logo-bootstrap" class="studies-ico"></li>
+                            <li><img src="../img/ico-excel.png" alt="logo-excel" class="studies-ico"></li>
+                        </ul>
+                        <ul class="bottom">
+                            <li><img src="../img/ico-python.png" alt="logo-python" class="studies-ico"></li>
+                            <li><img src="../img/ico-postgre.png" alt="logo-postgre" class="studies-ico"></li>
+                            <li><img src="../img/ico-django.png" alt="logo-django" class="studies-ico"></li>
+                            <li><img src="../img/ico-github-color.png" alt="logo-github" class="studies-ico"></li>
+                        </ul>
+                        <br>
+                        <button type="button" class="btn btn-light fw-semibold back-button"
+                            id="button-skills2">Back</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 col-md-9 popup" id="certificates-card">
+                <div id="carouselExampleIndicators" class="carousel slide mt-5">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/certificados/AI.jpeg" class="d-block certificates" alt="AI certificate">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/certificados/English for developers course.jpeg"
+                                class="d-block certificates" alt="english certificate">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <br>
+                <div class="card-body">
+                    <button type="button" class="btn btn-light fw-semibold back-button">Back</button>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+
+        <ul id="contact-img-container">
+            <li id="whatsapp"><a href="https://api.whatsapp.com/send?phone=56950452419" target="_blank"><img
+                        src="../img/ico-whatsapp-negro.png" alt="icono-whatsapp" class="img-footer"></a></li>
+            <li id="github"><a href="https://github.com/galmarcano" target="_blank"><img
+                        src="../img/ico-github-negro.png" alt="icono-github" class="img-footer"></a></li>
+            <li id="linkedin"><a href="https://www.linkedin.com/in/g%C3%A9nesis-marcano-p%C3%A9rez-49a25a9b/"
+                    target="_blank"><img src="../img/ico-linkedin-negro.png" alt="icono-linkedin"
+                        class="img-footer"></a>
+            </li>
+            <li id="cv"><a href="../img/cv-gene-eng.pdf" target="_blank"><img src="../img/ico-cv-negro.png"
+                        alt="icono-curriculo" class="img-footer"></a></li>
+        </ul>
+
+        <h6 id="gene-marcano">Génesis Marcano Pérez | 2023</h6>
+
+    </footer>
+
+    <script src="../js/main-eng.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
