@@ -181,7 +181,7 @@ header_list.forEach(function (element) {
 });
 
 
-const backgroungBody = document.querySelector('body')
+const backgroundBody = document.querySelector('body')
 const contHeader = document.querySelector('header')
 const inicioCont = document.querySelector('#home')
 const aboutMeSection = document.querySelector('#aboutme-section')
@@ -196,7 +196,7 @@ aboutMeButton.addEventListener('click', function () {
     aboutMeCard.classList.add('active');
     aboutMeSection.classList.add('d-none');
     inicioCont.classList.add('d-none');
-    backgroungBody.classList.add('cards');
+    backgroundBody.classList.add('cards');
     contHeader.classList.add('d-none');
 });
 
@@ -204,7 +204,7 @@ skillsButton.addEventListener('click', function () {
     skillsCard.classList.add('active');
     aboutMeSection.classList.add('d-none');
     inicioCont.classList.add('d-none');
-    backgroungBody.classList.add('cards');
+    backgroundBody.classList.add('cards');
     contHeader.classList.add('d-none');
 });
 
@@ -212,7 +212,7 @@ certificatesButton.addEventListener('click', function () {
     certificatesCard.classList.add('active');
     aboutMeSection.classList.add('d-none');
     inicioCont.classList.add('d-none');
-    backgroungBody.classList.add('cards');
+    backgroundBody.classList.add('cards');
     contHeader.classList.add('d-none');
 });
 
@@ -225,7 +225,7 @@ backButton.forEach(function (element) {
         certificatesCard.classList.remove('active');
         aboutMeSection.classList.remove('d-none');
         inicioCont.classList.remove('d-none');
-        backgroungBody.classList.remove('cards');
+        backgroundBody.classList.remove('cards');
         contHeader.classList.remove('d-none');
     });
 });

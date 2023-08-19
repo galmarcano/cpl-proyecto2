@@ -15,7 +15,7 @@ body.normal {
     font-size: 18px;
     background-image: url('../img/page_background.png');
     background-size: contain;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
 }
 
 body.cards {
@@ -24,8 +24,8 @@ body.cards {
     color: #0f0f0f;
     font-size: 18px;
     background-image: url('../img/page_transp_background.png');
-    background-size: cover;
-    background-repeat: repeat-y;
+    background-size: contain;
+    background-repeat: repeat;
 }
 
 header {
