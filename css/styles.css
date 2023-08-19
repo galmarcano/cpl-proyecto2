@@ -172,6 +172,11 @@ body.cards.mode-active {
 }
 
 
+main {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+}
 
 h1 {
     font-size: 36px;
@@ -222,14 +227,6 @@ img.certificates {
     width: 100%;
 }
 
-#hidden-about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 10px;
-}
 
 .popup {
     opacity: 0;
