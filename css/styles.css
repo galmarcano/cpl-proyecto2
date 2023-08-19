@@ -215,11 +215,12 @@ p {
 }
 
 #about-me {
-    margin: 10px 2px;
+    margin: 10px 5px;
 }
 
 img.studies-ico {
     width: 100%;
+    max-width: 50px;
 }
 
 img.certificates {
