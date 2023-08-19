@@ -24,7 +24,7 @@ body.cards {
     color: #0f0f0f;
     font-size: 18px;
     background-image: url('../img/page_transp_background.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat-y;
 }
 
@@ -74,6 +74,26 @@ li {
 li a {
     color: black;
     text-decoration: none;
+}
+
+#ico-studies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+#ico-studies-list li {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.studies-ico {
+    width: 100%;
+    min-width: 50px;
+    max-width: 70px;
 }
 
 #menu-btn,
@@ -218,11 +238,6 @@ p {
     margin: 10px 5px;
 }
 
-img.studies-ico {
-    width: 100%;
-    max-width: 50px;
-}
-
 img.certificates {
     width: 100%;
 }
@@ -327,11 +342,6 @@ footer {
     #button-aboutme2,
     #button-skills2 {
         font-size: large;
-    }
-
-    img.studies-ico {
-        width: 100%;
-        max-width: 70px;
     }
 
     #menu-btn {
